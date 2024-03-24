@@ -1,9 +1,9 @@
-"use client"
+"use client";
 import React from "react";
 import { BsGlobeAmericas } from "react-icons/bs";
 import { BiWalk } from "react-icons/bi";
 import { MdPayments } from "react-icons/md";
-import Image from "next/image";
+// import Image from "next/image";
 
 const ImageLink =
   "https://ik.imagekit.io/imgkitt/andrew-wulf-IeMpDqtdLL8-unsplash%20(1).jpg?updatedAt=1698394088097";
@@ -72,6 +72,7 @@ const TopValues = () => {
           autoPlay // Add the autoplay attribute
           loop // Add the loop attribute
           controls
+          muted
         />
       </div>
     </div>

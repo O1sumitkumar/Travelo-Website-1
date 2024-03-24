@@ -9,7 +9,7 @@ const Subscribe = () => {
           Subscribe To Get The Latest News About Us
         </h2>
         <p className=" text-center text-xl font-medium text-gray-400">
-          We recomended you to subscribe, drop your email below to get daily
+          We recommend you to subscribe, drop your email below to get daily
           update about us
         </p>
       </div>

@@ -55,7 +55,7 @@ const Footer = () => {
                 Account
               </li>
               <li className="text-[1.2rem] font-medium text-gray-400">
-                Referal Bonus
+                Referral Bonus
               </li>
               <li className="text-[1.2rem] font-medium text-gray-400">Offer</li>
             </ul>
@@ -64,7 +64,7 @@ const Footer = () => {
             <h2 className="text-2xl font-semibold">Company</h2>
             <ul>
               <li className="text-[1.2rem] font-medium text-gray-400">
-                Carees
+                Career
               </li>
               <li className="text-[1.2rem] font-medium text-gray-400">
                 Privacy & Policy

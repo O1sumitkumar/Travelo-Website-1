@@ -7,7 +7,7 @@ const ImageURL =
 
 const Hero = () => {
   return (
-    <div className="hero-conatiner h-[600px]  relative  top-0 left-0 w-full mx-auto">
+    <div className="hero-container h-[600px]  relative  top-0 left-0 w-full mx-auto">
       <div className="hero-img relative w-full h-[500px] overflow-hidden">
         <Image
           className="h-[100%] object-cover w-full "
@@ -38,31 +38,39 @@ const Hero = () => {
         </div>
         <div className="inputs flex items-end justify-between  px-12 p-10 bg-white shadow-md gap-3 h-[150px]">
           <div className="div">
-            <label className="text-gray-900 font-medium">Location </label>
-            <input
-              className="p-2 border focus:outline-none w-[200px]"
-              type="text"
-              placeholder="Singapore"
-            />
+            <label className="text-gray-900 font-medium">
+              <input
+                className="p-2 border focus:outline-none w-[200px]"
+                type="text"
+                placeholder="Singapore"
+              />
+              Location{" "}
+            </label>
           </div>
           <div className="div">
-            <label className="text-gray-900 font-medium">Chech-in </label>
-            <input className="p-2 border focus:outline-none" type="date" />
+            <label className="text-gray-900 font-medium">
+              <input className="p-2 border focus:outline-none" type="date" />
+              Check-in{" "}
+            </label>
           </div>
           <div className="div">
-            <label className="text-gray-900 font-medium">Chech-out </label>
-            <input className="p-2 border focus:outline-none" type="date" />
+            <label className="text-gray-900 font-medium">
+              <input className="p-2 border focus:outline-none" type="date" />
+              Check-out{" "}
+            </label>
           </div>
           <div className="div">
-            <label className="text-gray-900 font-medium">Guest </label>
-            <input
-              className="p-2 border focus:outline-none w-[200px]"
-              type="text"
-              placeholder="4 Adults"
-            />
+            <label className="text-gray-900 font-medium">
+              <input
+                className="p-2 border focus:outline-none w-[200px]"
+                type="text"
+                placeholder="4 Adults"
+              />
+              Guest{" "}
+            </label>
           </div>
           <button className=" bg-[#ff473f] p-[10px] px-5 text-white">
-            Seacrh
+            Search
           </button>
         </div>
       </div>
